@@ -4,6 +4,10 @@
 :root {
   --primary-color: #0f1b4c;
 }
+html,
+body {
+  scroll-behavior: smooth;
+}
 html {
   font-size: 62.5%;
 }
@@ -55,6 +59,7 @@ a {
   height: calc(100vh - 90px);
   background-color: #e6f0ff;
   position: relative;
+  justify-content: center;
 }
 .navbar {
   display: flex;
@@ -90,11 +95,7 @@ a {
   padding: 13px;
   border-radius: 8px;
 }
-
-.hero {
-  margin-top: 140px;
-}
-.hero .info {
+.hero-wrap .info {
   width: 51%;
 }
 .info .sub-title {
